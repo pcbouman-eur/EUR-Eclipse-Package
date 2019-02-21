@@ -24,5 +24,6 @@ The distinct features of the regular package are:
 
 * By default, executing a program terminates any previously running programs. This avoid accidentally overloading the computer with programs that run an infinite loop.
 * A number of default settings regarding Java warnings and errors are made more strict. As a result, it should be easier to debug certain common types of mistakes during tutorial sessions.
-* The Eclipse web-tools are added as a plugin, in case future courses decide to do something that involves some web-related technologies.
+* The package includes uses its own bundled OpenJDK version, rather than the system-wide JRE. Using a JDK can have some advantages, e.g. when using Maven.
+* The Eclipse Web Tools are added as a plugin, in case future courses decide to do something that involves some web-related technologies.
 * The SpotBugs plugin is added, because this may help students and teaching assistants to find common bugs in code during tutorials
