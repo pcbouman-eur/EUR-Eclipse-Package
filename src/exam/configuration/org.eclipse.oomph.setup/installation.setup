@@ -23,6 +23,14 @@
           key="/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.RelaunchAndTerminateLaunchAction"
           value="true"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.oomph.setup.ui">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.oomph.setup.ui/p2.startup.tasks"
+          value="NEVER"/>
+    </setupTask>	
   </setupTask>
   <productVersion
       href="index:/org.eclipse.setup#//@productCatalogs[name='self']/@products[name='product']/@versions[name='version']"/>
